@@ -1,0 +1,22 @@
+[09-Jul-2025 13:25:55 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/rsoa17.rehanschool.us/public_html/IQTEST/index.php on line 83
+[09-Jul-2025 13:27:11 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`dbhq1mdbnavoop`.`responses`, CONSTRAINT `responses_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`)) in /home/customer/www/rsoa17.rehanschool.us/public_html/IQTEST/quiz.php:26
+Stack trace:
+#0 /home/customer/www/rsoa17.rehanschool.us/public_html/IQTEST/quiz.php(26): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/customer/www/rsoa17.rehanschool.us/public_html/IQTEST/quiz.php on line 26
+[10-Jul-2025 14:11:40 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/rsoa17.rehanschool.us/public_html/IQTEST/index.php on line 83
+[10-Jul-2025 14:13:21 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`dbhq1mdbnavoop`.`responses`, CONSTRAINT `responses_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`)) in /home/customer/www/rsoa17.rehanschool.us/public_html/IQTEST/quiz.php:26
+Stack trace:
+#0 /home/customer/www/rsoa17.rehanschool.us/public_html/IQTEST/quiz.php(26): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/customer/www/rsoa17.rehanschool.us/public_html/IQTEST/quiz.php on line 26
+[10-Jul-2025 14:13:36 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`dbhq1mdbnavoop`.`responses`, CONSTRAINT `responses_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`)) in /home/customer/www/rsoa17.rehanschool.us/public_html/IQTEST/quiz.php:26
+Stack trace:
+#0 /home/customer/www/rsoa17.rehanschool.us/public_html/IQTEST/quiz.php(26): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/customer/www/rsoa17.rehanschool.us/public_html/IQTEST/quiz.php on line 26
+[10-Jul-2025 14:13:56 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`dbhq1mdbnavoop`.`responses`, CONSTRAINT `responses_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`)) in /home/customer/www/rsoa17.rehanschool.us/public_html/IQTEST/quiz.php:26
+Stack trace:
+#0 /home/customer/www/rsoa17.rehanschool.us/public_html/IQTEST/quiz.php(26): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/customer/www/rsoa17.rehanschool.us/public_html/IQTEST/quiz.php on line 26
